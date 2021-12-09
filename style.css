@@ -1,0 +1,99 @@
+
+ .navbar{
+     background-color: #000000;
+    color:#ffffff;
+    padding-left:100px;
+    font-size:1rem;
+
+}
+.nav-item a{
+    color:#ffffff;
+}
+.navbar a {
+    color:#ffffff;
+    
+}
+.ft{
+  background-color: #000000;
+  color:#fff;
+}
+#contact{
+  margin-top:70px;
+    margin-bottom:80px;
+    background-color: #f5f0e9; 
+}
+#team{
+    margin-top:70px;
+    margin-bottom:80px;
+    background-color: #f5f0e9; 
+}
+#abt{
+    margin-top:70px;
+    margin-bottom:80px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  /* gallery */
+  .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* whatapp */
+  /* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+    color: #25d366;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 60px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+#call{
+  margin-top: 30px;
+  margin-bottom:10px;
+  padding:33px;
+  background-color: #ddd;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}
